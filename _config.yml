@@ -1,0 +1,29 @@
+# GitHub Pages serves the standalone homepage without a remote theme.
+title: WenXuan Zou
+description: "WenXuan Zou — PhD student at Ocean University of China. Research and publications in organic synthesis and catalysis."
+url: "https://zwx000908-dev.github.io"
+baseurl: ""
+lang: en
+timezone: Asia/Hong_Kong
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+
+author:
+  name: WenXuan Zou
+  avatar: "/assets/images/bio-photo.png"
+  bio: "PhD student at Ocean University of China"
+
+# Preserve starter files locally without publishing their demo posts/pages.
+exclude:
+  - _posts
+  - _pages
+  - _data
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - scripts
+  - node_modules
+  - vendor
+  - .github
+  - assets/images/bio-photo.jpg
